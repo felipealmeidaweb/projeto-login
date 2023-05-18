@@ -5,8 +5,8 @@
 @media screen and (min-width: 700px) and (max-width: 992px) {
 
     section#login{
-        width: 90vw;
-        height: 90vh;
+        width: 80vw;
+        height: 280px;
     }
     section#login > div#imagem{
         float: left;
@@ -21,28 +21,53 @@
     body{
         background-image: linear-gradient(to top, #F25E95 , #592538 ,#F2ACCD);
     }
+    div#formulario > p{
+        font-size: 1.2em;
+    }
+    div#formulario > h1{
+        font-size: 2em;
+    }  
+
 
 }
+
+
+   
 @media screen and (min-width: 992px) {
+
 
     body{
         background-image: linear-gradient(to top, #F25E95 , #592538 ,#F2ACCD);
     }
-    section#login{
+    section#login {
+        display: flex;
+        flex-direction: row-reverse;
 
-        width: 90%;
-        height: 90%;
+        width: 950px;
+        height: 350px;
 
     }
+
  section#login > div#imagem{
-    float: left;
+    
+    
     width: 50%;
     height: 100%;
+   
  }
  section#login > div#formulario{
-    float: right;
+    
+    
     width: 50%;
  }
+ div#formulario > p{
+    font-size: 1.0em;
+    margin: 20px 0px;
+}
+div#formulario > h1{
+    font-size: 2em;
+}
+
     
 }
 
